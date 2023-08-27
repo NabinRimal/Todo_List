@@ -1,0 +1,92 @@
+body {
+  background-color: crimson;
+}
+.container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+  
+}
+
+#textbox {
+    
+    width: 50%;
+    height: 15vh;
+    padding: 0.5%;
+    font-size: larger;
+    font-family: "Times New Roman", Times, serif;
+  background-color: purple;
+  color: whitesmoke;
+  outline: none;
+  border: 0.8vh groove rgb(138, 255, 55);
+}
+.create_btn {
+    margin-top: 2vh;
+    
+    background-color: rgb(55, 142, 15);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(15, 203, 140);
+  padding: 0.5%;
+  font-size: 1.2em;
+  height: 10%;
+  width: 10%;
+  box-sizing: border-box;
+  border-radius: 0.5%;
+}
+
+.create_btn:active {
+  background-color: purple;
+  color: whitesmoke;
+}
+.container2 {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+  background-color: purple;
+  color: white;
+  border-radius: 3vh;
+  box-sizing: border-box;
+}
+.todobox {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: larger;
+  box-sizing: border-box;
+  margin: 0.8vh;
+  height: auto;
+ 
+}
+.todo-para {
+    margin: 0.1vh 0 0 0;
+  background-color: rgb(115, 231, 117);
+  color: rgb(71, 72, 71);
+  box-sizing: border-box;
+  width: 80%;
+  padding: 1vh;
+  border: 0.2vh solid rgb(115, 231, 117) ;
+  border-radius: 0.8vh;
+  font-size: large;
+  max-height: 20vh;
+  overflow-y: scroll;
+}
+.delbtn{
+    height: auto;
+    width:12% ;
+    font-size:medium;
+    box-sizing: border-box;
+}
+
+.warning{
+    color: burlywood;
+}
+
